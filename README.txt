@@ -4,7 +4,7 @@ SHUBH BANSAL PORTFOLIO
    profile.jpg
 
 2. Optional CV:
-   assets/Shubh-Bansal-CV.pdf
+   Shubh-Bansal-CV.pdf
 
 3. Open index.html locally to preview.
 
