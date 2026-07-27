@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shubh Bansal — B.Tech CSE student and web developer portfolio.">
+  <title>Shubh Bansal | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb1"></div><div class="bg-orb orb2"></div>
+
+  <header class="header">
+    <a class="logo" href="#home">Shubh<span>.</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <span class="eyebrow">👋 Hello, I'm</span>
+        <h1>Shubh<br><span>Bansal</span></h1>
+        <h2>Web Developer <i>•</i> CSE Student</h2>
+        <p>I build modern, responsive and user-friendly web experiences with clean code and a passion for learning new technologies.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Contact Me ↗</a>
+          <a class="btn secondary" href="#" onclick="alert('Add your CV file as assets/Shubh-Bansal-CV.pdf and this button will work.');return false;">Download CV ↓</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/shubh123-max" target="_blank" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+        <img src="assets/profile.jpg" alt="Shubh Bansal profile photo" onerror="this.style.display='none';document.querySelector('.photo-placeholder').style.display='grid';">
+        <div class="photo-placeholder"><strong>SB</strong><small>Add your photo<br>as assets/profile.jpg</small></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">ABOUT ME</div>
+      <div class="about-card">
+        <div class="about-art"><div class="code-icon">&lt;/&gt;</div><div class="laptop">▰</div></div>
+        <div>
+          <h2>Building Digital Products That <span>Inspire.</span></h2>
+          <p>I'm Shubh Bansal, a B.Tech Computer Science student at GLA University. I enjoy turning ideas into responsive websites and practical software projects.</p>
+          <p>I work with modern web technologies and continuously improve my development, problem-solving and design skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">MY TOOLKIT</div>
+      <div class="section-heading"><h2>Skills I <span>Work With</span></h2><p>Technologies I use to build and experiment with web projects.</p></div>
+      <div class="skills-grid">
+        <div class="skill"><b>HTML5</b><span>Structure</span></div><div class="skill"><b>CSS3</b><span>Design</span></div>
+        <div class="skill"><b>JS</b><span>JavaScript</span></div><div class="skill"><b>⚛</b><span>React</span></div>
+        <div class="skill"><b>Git</b><span>Version Control</span></div><div class="skill"><b>Node</b><span>Node.js</span></div>
+        <div class="skill"><b>DB</b><span>MongoDB</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">FEATURED PROJECTS</div>
+      <div class="section-heading row"><div><h2>Some Things I've <span>Built</span></h2><p>Projects that showcase my skills and learning.</p></div></div>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-image irrigation"><div>💧</div><strong>SMART IRRIGATION</strong></div>
+          <div class="project-body"><h3>Smart Irrigation System</h3><p>A smart agriculture project designed to improve water usage by monitoring conditions and automating irrigation decisions.</p>
+          <div class="tags"><span>IoT</span><span>JavaScript</span><span>Smart System</span></div>
+          <a href="https://github.com/shubh123-max" target="_blank" class="project-link">GitHub ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-image portfolio"><div>Shubh<span>.</span></div></div>
+          <div class="project-body"><h3>Personal Portfolio</h3><p>A responsive developer portfolio featuring projects, technical skills, social links and a modern visual design.</p>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          <a href="https://github.com/shubh123-max" target="_blank" class="project-link">GitHub ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">CONTACT</div>
+      <div class="contact-grid">
+        <div><h2>Let's Work <span>Together.</span></h2><p>Have a project idea, collaboration or opportunity? Feel free to reach out.</p>
+          <div class="contact-item"><small>Email</small><a href="mailto:your-email@example.com">your-email@example.com</a></div>
+          <div class="contact-item"><small>GitHub</small><a href="https://github.com/shubh123-max" target="_blank">github.com/shubh123-max</a></div>
+          <div class="contact-item"><small>Education</small><strong>GLA University • B.Tech CSE</strong></div>
+        </div>
+        <form onsubmit="sendMessage(event)">
+          <input required placeholder="Your Name"><input required type="email" placeholder="Your Email">
+          <input placeholder="Subject"><textarea required placeholder="Your Message"></textarea>
+          <button class="btn primary" type="submit">Send Message ↗</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="logo">Shubh<span>.</span></div><p>Building modern, responsive and user-friendly web experiences.</p><div>© <span id="year"></span> Shubh Bansal. All Rights Reserved.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
