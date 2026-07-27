@@ -1,7 +1,7 @@
 SHUBH BANSAL PORTFOLIO
 
 1. Put your profile photo at:
-   src="profile.jpg"
+   <img src="profile.jpg" alt="Shubh Bansal">
 
 2. Optional CV:
    Shubh-Bansal-CV.pdf
