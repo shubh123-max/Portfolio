@@ -1,7 +1,7 @@
 SHUBH BANSAL PORTFOLIO
 
 1. Put your profile photo at:
-   assets/profile.jpg
+   profile.jpg
 
 2. Optional CV:
    assets/Shubh-Bansal-CV.pdf
